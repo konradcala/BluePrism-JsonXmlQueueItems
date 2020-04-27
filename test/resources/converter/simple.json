@@ -1,0 +1,15 @@
+{
+  "topic": "sample topic",
+  "key": null,
+  "value": {
+    "firstname": "Anna",
+    "lastname": "Smith",
+    "pets": [
+      "dog",
+      "cat",
+      "hamster"
+    ]
+  },
+  "partition": 0,
+  "offset": 103423
+}

@@ -1,0 +1,31 @@
+{
+  "first": "firstValue",
+  "second": {
+    "third": false,
+    "fourth": {
+      "fifth": true
+    },
+    "sixth": [
+      {
+        "seventh": {
+          "ninth": [
+            3,
+            2,
+            1
+          ]
+        },
+        "eighth": {
+          "ninth": [
+            6.20,
+            4.56,
+            2.00
+          ]
+        },
+        "tenth": [
+          "abc",
+          "efg"
+        ]
+      }
+    ]
+  }
+}

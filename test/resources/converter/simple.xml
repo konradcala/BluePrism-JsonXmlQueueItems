@@ -1,0 +1,25 @@
+<collection>
+    <row>
+        <field name="topic" type="text" value="sample topic"/>
+        <field name="key" type="text" value=""/>
+        <field name="value" type="collection">
+            <row>
+                <field name="firstname" type="text" value="Anna"/>
+                <field name="lastname" type="text" value="Smith"/>
+                <field name="pets" type="collection">
+                    <row>
+                        <field name="JSON:Array" type="text" value="dog"/>
+                    </row>
+                    <row>
+                        <field name="JSON:Array" type="text" value="cat"/>
+                    </row>
+                    <row>
+                        <field name="JSON:Array" type="text" value="hamster"/>
+                    </row>
+                </field>
+            </row>
+        </field>
+        <field name="partition" type="number" value="0"/>
+        <field name="offset" type="number" value="103423"/>
+    </row>
+</collection>

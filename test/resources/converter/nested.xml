@@ -1,0 +1,61 @@
+<collection>
+    <row>
+        <field value="firstValue" type="text" name="first"/>
+        <field name="second" type="collection">
+            <row>
+                <field value="False" type="flag" name="third"/>
+                <field name="fourth" type="collection">
+                    <row>
+                        <field value="True" type="flag" name="fifth"/>
+                    </row>
+                </field>
+                <field name="sixth" type="collection">
+                    <row>
+                        <field name="JSON:Array" type="collection">
+                            <row>
+                                <field name="seventh" type="collection">
+                                    <row>
+                                        <field name="ninth" type="collection">
+                                            <row>
+                                                <field value="3" type="number" name="JSON:Array"/>
+                                            </row>
+                                            <row>
+                                                <field value="2" type="number" name="JSON:Array"/>
+                                            </row>
+                                            <row>
+                                                <field value="1" type="number" name="JSON:Array"/>
+                                            </row>
+                                        </field>
+                                    </row>
+                                </field>
+                                <field name="eighth" type="collection">
+                                    <row>
+                                        <field name="ninth" type="collection">
+                                            <row>
+                                                <field value="6.2" type="number" name="JSON:Array"/>
+                                            </row>
+                                            <row>
+                                                <field value="4.56" type="number" name="JSON:Array"/>
+                                            </row>
+                                            <row>
+                                                <field value="2.0" type="number" name="JSON:Array"/>
+                                            </row>
+                                        </field>
+                                    </row>
+                                </field>
+                                <field name="tenth" type="collection">
+                                    <row>
+                                        <field value="abc" type="text" name="JSON:Array"/>
+                                    </row>
+                                    <row>
+                                        <field value="efg" type="text" name="JSON:Array"/>
+                                    </row>
+                                </field>
+                            </row>
+                        </field>
+                    </row>
+                </field>
+            </row>
+        </field>
+    </row>
+</collection>
